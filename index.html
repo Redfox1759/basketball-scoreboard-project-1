@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="name-el">NIGERIAN BASKETBALL FEDERATION</h1>
+        <div class="container">
+            <div class="box">
+                <h3>HOME</h3>
+                <h1 class="score-el-home" id="score-el-home">0</h1>
+                <button onclick="add1Home()">+1</button>
+                <button onclick="add2Home()">+2</button>
+                <button onclick="add3Home()">+3</button>
+            </div>
+            <div class="box">
+                <h3>GUEST</h3>
+                <h1 class="score-el-guest" id="score-el-guest">0</h1>
+                <button onclick="add1Guest()">+1</button>
+                <button onclick="add2Guest()">+2</button>
+                <button onclick="add3Guest()">+3</button>
+            </div>
+        </div>
+        <div class="reset-el">
+            <button class="reset-btn" onclick="reset()">NEW GAME</button>
+            <button class="period-btn" onclick="newPeriod()">PERIOD</button>
+            <button class="period-btn" onclick="leader()">WINNER</button>
+            
+        </div>
+         
+        <h2 class="period-el" id="period-el">PERIOD: </h2>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
