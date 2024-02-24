@@ -57,7 +57,9 @@ function newPeriod(){
 function leader(){
      if( scoreELHome.textContent > scoreELGuest.textContent ){
          scoreELHome.style.color = "green";
-     } else {
+     } else if( scoreELGuest.textContent > scoreELHome.textContent) {
          scoreELGuest.style.color = "green"
+     } else{
+        periodEl.textContent = " DRAW"
      }
  }
