@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-size: 100%;
+    background-size:cover;
     font-family:'digital-clock-font';
     background-image: url("image.jpg");
     height: 100vh;
